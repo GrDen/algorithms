@@ -2,6 +2,10 @@
 #include <vector>
 using namespace std;
 
+/*
+ * Reaorder the entries in array so that even appear first
+ */
+
 vector<int> evenOddExtraSpace(vector<int>* v) {
   vector<int>& vr = *v;
   vector<int> even, odd, result;
@@ -55,12 +59,4 @@ int main() {
 
   return 0;
 }
-
-/*
-
-1 2 3 4 5 6 7
-
-
-
-*/
 
